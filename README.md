@@ -1,16 +1,91 @@
-# examen_flutter
+# 📱 Examen Flutter - Application de Gestion des Inscriptions Étudiants
 
-A new Flutter project.
+Ce projet est une application mobile développée avec **Flutter** dans le cadre de l'examen de Développement Mobile (Licence 2). Elle permet la **gestion des inscriptions des étudiants**, avec une interface conviviale, une **authentification via Firebase**, et une base de données **SQLite** pour le stockage local des informations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🔒 Authentification Firebase
 
-A few resources to get you started if this is your first Flutter project:
+L'application permet aux utilisateurs de créer un compte et de se connecter à l'aide de leur email et mot de passe via **Firebase Authentication**.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Page d'inscription
+- Page de connexion
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📊 Tableau de bord (Dashboard)
+
+Le tableau de bord affiche en temps réel :
+
+- ✅ Nombre total d'étudiants inscrits
+- 👩 Nombre d'étudiantes (sexe féminin)
+- 👨 Nombre d'étudiants (sexe masculin)
+- 📈 Un **diagramme circulaire** (pie chart) affichant la répartition homme/femme avec le plugin [`fl_chart`](https://pub.dev/packages/fl_chart)
+
+---
+
+## 🧑‍🎓 Modèle Étudiant
+
+Chaque étudiant a les attributs suivants :
+
+- Nom
+- Prénom
+- Photo de profil
+- Adresse
+- Téléphone
+- Email
+
+---
+
+## 📄 Liste des étudiants
+
+- Affichage de **tous les étudiants** sous forme de liste
+- **Recherche dynamique** par nom ou prénom
+- **Détail d’un étudiant** accessible via un clic sur la fiche
+
+---
+
+## 👤 Modèle Utilisateur (Compte)
+
+Les informations pour chaque compte utilisateur sont :
+
+- Nom
+- Prénom
+- Adresse
+- Téléphone
+- Email
+- Mot de passe
+
+---
+
+## 🗄️ Stockage
+
+- 🔐 Authentification avec **Firebase**
+- 📂 Données des étudiants stockées en **local via SQLite**
+
+---
+
+## 📸 Captures d'écran
+
+Voici quelques aperçus de l'application :
+
+
+- Page de Connexion
+- Accueil ou Tableau de bord
+- Menu Drawer
+- Page liste des Etudiants
+
+
+| ![Accueil](assets/captures/capture13.jpg) | ![Dashboard](assets/captures/capture04.jpg) | ![Liste](assets/captures/capture01.jpg) 
+
+|Menu Drawer
+|![Draweer](assets/captures/capture11.jpg) |![Etudiants](assets/captures/capture06.jpg)
+
+---
+
+## 📝 Instructions de Lancement
+
+1. Cloner le projet :
+   ```bash
+   git clone https://github.com/Diorm/Examen_Flutter.git
+
