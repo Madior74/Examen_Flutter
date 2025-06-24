@@ -87,5 +87,5 @@ Voici quelques aperçus de l'application :
 
 1. Cloner le projet :
    ```bash
-   git clone https://github.com/Diorm/Examen_Flutter.git
+   git clone https://github.com/Madior74/Examen_Flutter.git
 
