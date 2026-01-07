@@ -76,11 +76,6 @@ Voici quelques aperçus de l'application :
 - Page liste des Etudiants
 
 
-| ![Accueil](assets/captures/capture13.jpg) | ![Dashboard](assets/captures/capture04.jpg) | ![Liste](assets/captures/capture01.jpg) 
-
-|Menu Drawer
-|![Draweer](assets/captures/capture11.jpg) |![Etudiants](assets/captures/capture06.jpg)
-
 ---
 
 ## 📝 Instructions de Lancement
